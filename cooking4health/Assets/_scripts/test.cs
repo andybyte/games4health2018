@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class test : MonoBehaviour {
 
@@ -13,4 +14,12 @@ public class test : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void onClick(){
+          // Save game data
+  
+          // Close game
+          Debug.Log("You pressed a button. Woopie!");
+          Application.Quit ();
+      }
 }
