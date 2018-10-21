@@ -792,7 +792,7 @@ Prefab:
     - target: {fileID: 114908944849711108, guid: 9d0c4cc1a0e114b9da949bf2f300218e,
         type: 2}
       propertyPath: m_text
-      value: I can try better next time.
+      value: I can do better next time.
       objectReference: {fileID: 0}
     - target: {fileID: 114908944849711108, guid: 9d0c4cc1a0e114b9da949bf2f300218e,
         type: 2}
@@ -807,7 +807,7 @@ Prefab:
     - target: {fileID: 114908944849711108, guid: 9d0c4cc1a0e114b9da949bf2f300218e,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 114908944849711108, guid: 9d0c4cc1a0e114b9da949bf2f300218e,
         type: 2}

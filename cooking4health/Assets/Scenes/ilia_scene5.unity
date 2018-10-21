@@ -757,6 +757,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 7.5912294
       objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
   m_IsPrefabAsset: 0
@@ -792,6 +796,7 @@ Transform:
   m_Children:
   - {fileID: 246472350}
   - {fileID: 1280112429}
+  - {fileID: 1784813888}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -938,6 +943,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1001 &1784813887
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1288799561}
+    m_Modifications:
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.746141
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6086498
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.59123
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.59123
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.59123
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_Name
+      value: Sad
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3e519b45000c4899a9b6afe8a265716, type: 2}
+    - target: {fileID: 13700000, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3e519b45000c4899a9b6afe8a265716, type: 2}
+    - target: {fileID: 13700000, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: aab49c668c8bd4582a7cebfcb3baf4b1, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e7d79d39b1fb8864192fa7be1b8ce0c9, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &1784813888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400024, guid: e7d79d39b1fb8864192fa7be1b8ce0c9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1784813887}
 --- !u!1 &1828242614
 GameObject:
   m_ObjectHideFlags: 0
