@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-	public enum Location {Customer, Sink, CuttingBoard, Plate, Serve}
+	public enum Location {Customer, Sink, CuttingBoard, Mix, Plate, Serve}
 
 	private bool firstChoice;
 	private Location myLocation;
@@ -42,7 +42,36 @@ public class GameManager : MonoBehaviour {
 		CheckFirstChoice();
 		recipe.SetActive(false);
 		myLocation = Location.Sink;
+		areaSink.SetActive(true);
+	}
+
+	public void SwitchToCuttingBoard () 
+	{
+		CheckFirstChoice();
+		recipe.SetActive(false);
+		myLocation = Location.CuttingBoard;
 		areaCuttingBoard.SetActive(true);
+	}
+
+	public void SwitchToMix () 
+	{
+		CheckFirstChoice();
+		recipe.SetActive(false);
+		myLocation = Location.Mix;
+		areaMix.SetActive(true);
+	}
+
+	public void SwitchToPlate () 
+	{
+		CheckFirstChoice();
+		recipe.SetActive(false);
+		myLocation = Location.Plate;
+		areaPlate.SetActive(true);
+	}
+
+	public void SwitchToServe () 
+	{
+		
 	}
 
 	public void SwitchToRecipe ()
