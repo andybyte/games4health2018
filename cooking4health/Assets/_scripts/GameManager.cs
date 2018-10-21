@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject areaSink;
 	public GameObject areaMix;
 	public GameObject areaPlate;
+
 
 	// Use this for initialization
 	void Start () {
@@ -71,7 +73,7 @@ public class GameManager : MonoBehaviour {
 
 	public void SwitchToServe () 
 	{
-		
+		SceneManager.LoadScene("ilia_scene5");
 	}
 
 	public void SwitchToRecipe ()
@@ -79,18 +81,22 @@ public class GameManager : MonoBehaviour {
 		if (areaCuttingBoard.active == true)
 		{
 			areaCuttingBoard.SetActive(false);
-		} else if (areaMix.active == true) 
+		} 
+		if (areaMix.active == true) 
 		{
 			areaMix.SetActive(false);
-		} else if (areaPlate.active == true)
+		} 
+		if (areaPlate.active == true)
 		{
 			areaPlate.SetActive(false);
-		} else if (areaSink.active == true)
+		} 
+		if (areaSink.active == true)
 		{
-			areaSink.SetActive(true);
-		} else if (areaPlate.active == true)
+			areaSink.SetActive(false);
+		} 
+		if (areaPlate.active == true)
 		{
-			areaPlate.SetActive(true);
+			areaPlate.SetActive(false);
 		};
 		recipe.SetActive(true);
 
